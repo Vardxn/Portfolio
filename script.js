@@ -34,24 +34,33 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Add active class to navigation links on scroll
-window.addEventListener('scroll', () => {
-    let current = '';
-    const sections = document.querySelectorAll('section');
-    
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        if (scrollY >= (sectionTop - 200)) {
-            current = section.getAttribute('id');
-        }
-    });
+let scrollTicking = false;
 
-    navLinks.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href').substring(1) === current) {
-            link.classList.add('active');
-        }
-    });
+window.addEventListener('scroll', () => {
+    if (!scrollTicking) {
+        window.requestAnimationFrame(() => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+            
+            scrollTicking = false;
+        });
+        scrollTicking = true;
+    }
 });
 
 // Intersection Observer for animations
@@ -122,6 +131,8 @@ createScrollToTopButton();
 // Typing effect for hero subtitle
 const typingEffect = () => {
     const subtitle = document.querySelector('.hero-subtitle');
+    if (!subtitle) return;
+    
     const originalText = subtitle.textContent;
     subtitle.textContent = '';
     let i = 0;
@@ -151,7 +162,9 @@ window.addEventListener('scroll', () => {
     if (!ticking) {
         window.requestAnimationFrame(() => {
             const hero = document.querySelector('.hero');
-            hero.style.transform = `translateY(${lastScroll * 0.5}px)`;
+            if (hero) {
+                hero.style.transform = `translateY(${lastScroll * 0.5}px)`;
+            }
             ticking = false;
         });
         ticking = true;
