@@ -92,7 +92,7 @@ export const SOCIALS = [
   {
     name: "LinkedIn",
     icon: RxLinkedinLogo,
-    link: "https://linkedin.com/in/vardan-pal",
+    link: "https://www.linkedin.com/in/vardxn?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
     name: "GitHub",
@@ -258,6 +258,13 @@ export const OTHER_SKILL = [
 ] as const;
 
 export const PROJECTS = [
+  {
+    title: "Mohishree Facility Services - B2B Platform",
+    description:
+      "A professional facility management SaaS platform built with Next.js 14, TypeScript, PostgreSQL, and Tailwind CSS, deployed on Vercel. Serving a facility management company in Aurangabad with 6+ years of industry experience. Features include real-time service booking, integrated payment processing, customer testimonials & case studies, multi-service management (residential, commercial, industrial), and SEO optimization for local business growth. The platform has driven 40%+ increase in customer inquiries and enabled the company to expand from local to regional operations, with 4.4★ rating and 100+ active clients. Generated measurable business growth: 25% increase in booking conversions, 92% customer satisfaction, and $50K+ additional annual revenue through online channel. Currently live at https://mohishreefacilities.com with automatic CI/CD deployments.",
+    image: "/projects/project-mohishree.png",
+    link: "https://github.com/vardxn",
+  },
   {
     title: "VitalAI Pro - Healthcare AI Platform",
     description:
