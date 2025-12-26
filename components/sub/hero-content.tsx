@@ -24,7 +24,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Currently Building Healthcare AI Solutions at NIT Srinagar
+            Final Year B.Tech Student at NIT Srinagar | Ex-Novetiq Umbrella
           </h1>
         </motion.div>
 
@@ -39,9 +39,9 @@ export const HeroContent = () => {
             </span>
           </span>
           <span className="text-4xl">
-            Full-Stack Developer specializing in{" "}
+            Full-Stack Web Developer specializing in{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              Healthcare Technology
+              Animations & Cloud Solutions
             </span>
           </span>
         </motion.div>
@@ -50,18 +50,18 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Computer Science student at NIT Srinagar passionate about building impactful healthcare solutions. 
-          Currently focused on developing VitalAI Pro - an AI-powered healthcare platform combining disease prediction, 
-          prescription analysis, and real-time health monitoring. My work bridges MERN stack development with Python 
-          AI/ML to create production-ready systems that can serve millions and save lives.
+          I&apos;m a final year B.Tech student in Information Technology at NIT Srinagar, passionate about 
+          building production-ready web applications. I specialize in full-stack development - creating 
+          animated frontends, robust backends with databases, and hosting complete solutions. Previously 
+          worked at Novetiq Umbrella, a cloud-based company, where I honed my skills in scalable web development.
         </motion.p>
 
         <motion.p
           variants={slideInFromLeft(0.9)}
           className="text-base text-gray-500 mb-5 max-w-[600px]"
         >
-          <span className="text-cyan-400 font-semibold">Focus Areas:</span> Healthcare AI, Full-Stack Web Development, 
-          Business SaaS Platforms, Machine Learning Integration
+          <span className="text-cyan-400 font-semibold">Expertise:</span> Full-Stack Web Development, 
+          Frontend Animations, Backend APIs, Database Design, Cloud Hosting, Business SaaS Platforms
         </motion.p>
 
         <motion.a
