@@ -71,7 +71,7 @@ export const MohishreeShowcase = () => {
           {/* Short Description */}
           <p className="text-base leading-relaxed">
             Transformed a traditional cleaning service business into a digital-native SaaS platform. 
-            From concept to production in 10 weeks. Now serving as the company's primary revenue driver, 
+            From concept to production in 10 weeks. Now serving as the company&apos;s primary revenue driver, 
             generating $50K+ annually through online channels while enabling 3x business expansion.
           </p>
         </div>
@@ -178,7 +178,7 @@ export const MohishreeShowcase = () => {
           </div>
           <div className="mt-6 pt-6 border-t border-slate-600">
             <p className="text-gray-300">
-              <span className="font-semibold text-white">Key Achievement:</span> This platform doesn't just showcase coding 
+              <span className="font-semibold text-white">Key Achievement:</span> This platform doesn&apos;t just showcase coding 
               skills—it demonstrates full-stack development that drives real business growth. From day one, 
               the website contributed to measurable revenue, client acquisition, and market expansion.
             </p>

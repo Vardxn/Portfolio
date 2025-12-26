@@ -261,7 +261,7 @@ export const PROJECTS = [
   {
     title: "Mohishree Facility Services - B2B SaaS",
     description:
-      "Professional facility management platform built with Next.js 14, TypeScript & PostgreSQL. Features real-time booking system, customer testimonials, multi-service management, and SEO optimization. Business Impact: 40% ⬆ inquiries, 25% ⬆ conversions, $50K+ revenue growth, 4.4★ rating, 100+ active clients, 3x business expansion. Live: mohishreefacilities.com",
+      "Professional facility management platform built with Next.js 14, TypeScript & PostgreSQL. Real-time booking system, customer testimonials, multi-service management, and SEO optimization. Business Impact: 40% ⬆ inquiries, 25% ⬆ conversions, $50K+ revenue growth, 4.4★ rating, 100+ active clients, 3x business expansion.",
     image: "/projects/project-mohishree.png",
     link: "https://mohishreefacilities.com",
   },
