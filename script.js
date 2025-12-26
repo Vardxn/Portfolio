@@ -141,11 +141,21 @@ const typingEffect = () => {
 // Run typing effect when page loads
 window.addEventListener('load', typingEffect);
 
-// Add parallax effect to hero section
+// Add parallax effect to hero section with throttling
+let lastScroll = 0;
+let ticking = false;
+
 window.addEventListener('scroll', () => {
-    const hero = document.querySelector('.hero');
-    const scrolled = window.pageYOffset;
-    hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+    lastScroll = window.pageYOffset;
+    
+    if (!ticking) {
+        window.requestAnimationFrame(() => {
+            const hero = document.querySelector('.hero');
+            hero.style.transform = `translateY(${lastScroll * 0.5}px)`;
+            ticking = false;
+        });
+        ticking = true;
+    }
 });
 
 console.log('Portfolio website loaded successfully!');
