@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  title: "Vardan Pal | Portfolio",
-  description: "Information Technology student at NIT Srinagar bridging Full-Stack Engineering and Healthcare AI. Building VitalAI Pro - a production-ready AI healthcare platform.",
+  title: "Vardan Pal | Full-Stack Developer & Healthcare AI Specialist",
+  description: "Computer Science student at NIT Srinagar specializing in Healthcare Technology and AI. Currently building VitalAI Pro - an AI-powered healthcare platform. Expertise in MERN Stack, Python AI/ML, and Business SaaS Development.",
   keywords: [
     "reactjs",
     "nextjs",
