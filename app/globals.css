@@ -87,5 +87,5 @@ html {
     linear-gradient(120deg, #0a0226, #110044, #050018);
   background-size: 200% 200%;
   animation: hero-aurora 16s ease-in-out infinite;
-  opacity: 0.9;
+  opacity: 0.45;
 }

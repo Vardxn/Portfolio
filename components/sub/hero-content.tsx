@@ -31,7 +31,7 @@ export const HeroContent = () => {
       <motion.section
         initial="hidden"
         animate="visible"
-        className="min-h-[calc(100svh-80px)] flex flex-col md:flex-row items-center justify-between px-4 md:px-12 lg:px-16 pt-28 md:pt-32 pb-16 gap-10 w-full z-[20]"
+        className="min-h-[calc(100svh-80px)] flex flex-col md:flex-row items-center justify-between px-4 md:px-12 lg:px-16 pt-16 md:pt-24 pb-14 gap-8 w-full z-[20]"
       >
       <div className="h-full w-full flex flex-col gap-5 md:gap-6 justify-center m-auto text-center md:text-start max-w-3xl">
         <motion.div

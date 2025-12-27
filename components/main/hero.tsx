@@ -4,7 +4,7 @@ export const Hero = () => {
   return (
     <div className="relative flex flex-col min-h-[100svh] w-full overflow-hidden">
       <div
-        className="absolute inset-0 -z-30 bg-gradient-to-b from-[#0b032d] via-[#110044] to-[#050018]"
+        className="absolute inset-0 -z-30 bg-gradient-to-b from-[#0b032d]/70 via-[#110044]/75 to-[#050018]/85"
         aria-hidden="true"
       />
       <div className="absolute inset-0 -z-25 hero-aurora" aria-hidden="true" />
@@ -14,7 +14,7 @@ export const Hero = () => {
         loop
         playsInline
         preload="auto"
-        className="absolute inset-0 w-full h-full object-cover object-center -z-20 rotate-180 scale-[1.08] md:scale-100"
+        className="absolute inset-0 w-full h-full object-cover object-center -z-20 rotate-180 scale-[1.08] md:scale-100 opacity-90"
       >
         <source src="/videos/blackhole.webm" type="video/webm" />
         {/* Optional MP4 fallback: add a blackhole.mp4 file to /public/videos and uncomment below */}
