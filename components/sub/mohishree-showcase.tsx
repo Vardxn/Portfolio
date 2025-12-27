@@ -90,7 +90,7 @@ export const MohishreeShowcase = () => {
             >
               <div className="flex items-center gap-2 mb-2">
                 {metric.icon}
-                <span className="text-xs text-gray-400 font-semibold">
+                <span className="text-xs text-gray-100 font-semibold">
                   {metric.label}
                 </span>
               </div>
@@ -138,7 +138,7 @@ export const MohishreeShowcase = () => {
               className="bg-slate-800/50 rounded-lg p-4 border border-slate-700"
             >
               <h4 className="font-semibold text-white mb-2">{feature.title}</h4>
-              <p className="text-sm text-gray-400">{feature.desc}</p>
+              <p className="text-sm text-gray-100">{feature.desc}</p>
             </div>
           ))}
         </div>
@@ -177,7 +177,7 @@ export const MohishreeShowcase = () => {
             </div>
           </div>
           <div className="mt-6 pt-6 border-t border-slate-600">
-            <p className="text-gray-300">
+            <p className="text-gray-50">
               <span className="font-semibold text-white">Key Achievement:</span> This platform doesn&apos;t just showcase coding 
               skills—it demonstrates full-stack development that drives real business growth. From day one, 
               the website contributed to measurable revenue, client acquisition, and market expansion.

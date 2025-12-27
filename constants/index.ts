@@ -259,32 +259,36 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Mohishree Facility Services - B2B SaaS",
+    title: "Mohishree Facility Services - B2B SaaS Platform",
     description:
-      "Professional facility management platform built with Next.js 14, TypeScript & PostgreSQL. Real-time booking system, customer testimonials, multi-service management, and SEO optimization. Business Impact: 40% ⬆ inquiries, 25% ⬆ conversions, $50K+ revenue growth, 4.4★ rating, 100+ active clients, 3x business expansion.",
-    image: "/projects/project-mohishree.png",
+      "Designed and built a production facility management platform serving 100+ active clients. Implemented real-time booking system, SEO optimization, and customer testimonials that drove 40% increase in inquiries and $50K+ revenue growth. Platform achieved 4.4★ rating and enabled 3x business expansion.",
+    image: "/projects/mohishree.jpg",
     link: "https://mohishreefacilities.com",
+    tech: ["Next.js 14", "TypeScript", "PostgreSQL", "Tailwind CSS", "Vercel"],
   },
   {
     title: "VitalAI Pro - Healthcare AI Platform",
     description:
-      "The Ultimate Healthcare AI Platform combining smart health predictions with global scalability. Features include Prescription OCR (96% accuracy), ML-powered disease prediction (90%+ accuracy), HIPAA-compliant security with 25+ API endpoints, and IoT integration for real-time health monitoring. Built with MERN stack, Python (TensorFlow, OpenCV), and AWS infrastructure with 99.9% uptime.",
-    image: "/projects/project-1.png",
+      "Built an AI-powered healthcare platform with 96% prescription OCR accuracy and 90%+ disease prediction accuracy. Integrated 25+ HIPAA-compliant APIs and IoT sensors for real-time health monitoring. Achieved 99.9% uptime on AWS infrastructure serving global users.",
+    image: "/projects/healthease.jpg",
     link: "https://github.com/vardxn",
+    tech: ["MERN Stack", "Python", "TensorFlow", "OpenCV", "AWS"],
   },
   {
-    title: "Wanderlust - Travel Platform",
+    title: "Wanderlust - Travel Booking Platform",
     description:
-      'A full-stack travel booking and exploration platform built with Node.js, Express, and PostgreSQL. Features include user authentication, listing management, reviews, and interactive maps. Deployed with modern DevOps practices and optimized for performance.',
-    image: "/projects/project-2.png",
+      'Created a full-stack travel platform with user authentication, listing management, and interactive maps. Implemented review system and optimized performance through modern DevOps practices. Built scalable backend with Node.js and PostgreSQL.',
+    image: "/projects/wanderlust.jpg",
     link: "https://github.com/vardxn",
+    tech: ["Node.js", "Express", "PostgreSQL", "Maps API", "DevOps"],
   },
   {
-    title: "Portfolio Website",
+    title: "Interactive Portfolio Website",
     description:
-      'A modern, space-themed portfolio website built with Next.js 14, TypeScript, Framer Motion, and Tailwind CSS. Features immersive 3D animations, responsive design, and optimized performance. Showcases projects, skills, and professional journey in an engaging interactive experience.',
+      'Designed a space-themed portfolio with immersive 3D animations using Framer Motion. Implemented responsive design and optimized performance for fast loading. Showcases professional work through engaging interactive experience.',
     image: "/projects/project-3.png",
     link: "https://github.com/vardxn",
+    tech: ["Next.js 14", "TypeScript", "Framer Motion", "Tailwind CSS"],
   },
 ] as const;
 

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
-  title: "Vardan Pal | Full-Stack Web Developer | NIT Srinagar",
-  description: "Final year B.Tech student in Information Technology at NIT Srinagar. Full-Stack Web Developer specializing in animated frontends, backend APIs, databases, and cloud hosting. Previously worked at Novetiq Umbrella. Expert in building production-ready web applications and Business SaaS platforms.",
+  title: "Vardan Pal | Website & Cloud Technology Specialist | NIT Srinagar",
+  description: "Final year B.Tech student in Information Technology at NIT Srinagar, specializing in Website Development & Cloud Technology. Expert in building full-stack web applications with animated interfaces, scalable backends, and cloud deployments. Previously worked at Novetiq Umbrella on cloud-based solutions.",
   keywords: [
     "reactjs",
     "nextjs",

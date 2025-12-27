@@ -53,7 +53,7 @@ export const MohishreeCard = () => {
         </div>
 
         {/* Description */}
-        <p className="text-gray-300 mb-4">
+        <p className="text-gray-50 mb-4">
           Professional facility management SaaS that transformed a traditional
           service business into a digital powerhouse. Built to scale, now
           generating $50K+ annual revenue and serving 100+ active clients.
@@ -88,7 +88,7 @@ export const MohishreeCard = () => {
           <p className="text-xs text-gray-400 uppercase tracking-wide mb-2">
             Key Features
           </p>
-          <ul className="space-y-1 text-sm text-gray-300">
+          <ul className="space-y-1 text-sm text-gray-50">
             <li>✓ Real-time service booking system with quote generation</li>
             <li>✓ Multi-service management (15+ cleaning services)</li>
             <li>✓ 100+ customer testimonials & 4 detailed case studies</li>
