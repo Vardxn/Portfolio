@@ -281,7 +281,7 @@ export const Projects = () => {
 2. **Test locally** at `http://localhost:3000`
 3. **Commit and push** to GitHub
 4. **Vercel auto-deploys** your updated portfolio
-5. **View live** at `https://portfolio-lake-sigma-38.vercel.app`
+5. **View live** at `https://portfolio-vardxn.vercel.app`
 
 ---
 

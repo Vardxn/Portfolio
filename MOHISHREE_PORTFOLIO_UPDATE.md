@@ -200,5 +200,5 @@ This is exactly what employers/clients want to see: a developer who can take ide
 
 **Your portfolio is now live with Mohishree featured!** 🎉
 
-Visit: https://portfolio-lake-sigma-38.vercel.app
+Visit: https://portfolio-vardxn.vercel.app
 (Changes auto-deployed to Vercel)

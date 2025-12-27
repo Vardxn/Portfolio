@@ -209,4 +209,4 @@ Uses: `Tag` component for tech badges
 ---
 
 **Last Updated**: December 26, 2025
-**Portfolio Live**: https://portfolio-lake-sigma-38.vercel.app
+**Portfolio Live**: https://portfolio-vardxn.vercel.app

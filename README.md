@@ -1,6 +1,6 @@
 # Vardan Pal — Space-Themed Portfolio (Next.js 14)
 
-Live site: https://portfolio-lake-sigma-38.vercel.app/
+Live site: https://portfolio-vardxn.vercel.app/
 
 A space-inspired personal portfolio for Vardan Pal (Full-Stack & Cloud). Built with Next.js 14, TypeScript, Tailwind CSS, Framer Motion animations, and a looping black-hole background video for an immersive glass/liquid look.
 
